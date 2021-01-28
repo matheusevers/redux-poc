@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  background: #f1faee;
+}
+
+.app {
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+
+.user-info-wrapper {
+  flex: 5;
+  display: flex;
+  flex-direction: column;
+}
+
+.normal-text {
+  color: #457b9d;
+  font-size: 92px;
+  font-weight: 600;
+}
+
+.highlight-text {
+  color: #e63946;
+  font-size: 112px;
+  font-weight: 600;
+}
+
+.age-prediction-wrapper {
+  flex: 5;
+}
